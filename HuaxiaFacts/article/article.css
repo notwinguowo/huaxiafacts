@@ -1,0 +1,48 @@
+body{
+    margin: 8px;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    user-select: text;
+    overflow: auto;
+}
+
+#content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#topbar{
+    width: 100%;
+    background-color: #555555;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+}
+
+#topbar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: rgb(155, 238, 123);
+    font-size: 36px;
+  }
+  
+#topbar a:hover {
+    background-color: #000000;
+  }
+
+#title{font-size: 255%;}
+
+#author:before {
+    content: "作者: ";
+}
+
+#author{
+    font-size: smaller;
+    color: rgb(133, 133, 133);
+}
+
+.image-describe{user-select: none; color: grey; overflow: ellipsis;}
